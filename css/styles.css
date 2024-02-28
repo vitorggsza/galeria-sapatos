@@ -1,0 +1,102 @@
+/* Geral */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    text-align: center;
+    background-color: #60bfff;
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+}
+
+.titulo-principal {
+    font-size: 2.1rem;
+    color: #fff;
+}
+
+/* Conteúdo principal */
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    max-width: 90%;
+    margin: 0 auto 4rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    background-color: #fff;
+    width: 450px;
+    max-width: 100%;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+}
+
+.btn-comprar {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #60bfff;
+    padding: 1rem 0;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.btn-comprar:hover {
+    color: #60bfff;
+    background-color: transparent;
+    border-color: #60bfff;
+}
+
+/* Rodapé */
+.rodape {
+    text-align: center;
+    background-color: #60bfff;
+    padding: 3rem 0;
+}
+
+.copyright {
+    font-style: italic;
+    color: #fff;
+}
+
+.link-creditos {
+    font-weight: bold;
+    color: inherit;
+    text-decoration: none;
+}
+
+.link-creditos:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+
+/* Notebooks (768px - 1024px) */
+@media (min-width: 768px) {
+    html {
+        font-size: initial;
+    }
+}
